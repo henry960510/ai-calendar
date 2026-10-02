@@ -1,0 +1,9 @@
+.env
+schedule_data.json
+schedule_data.json.tmp
+schedule_data.json.bak
+__pycache__/
+*.pyc
+build/
+dist/
+.DS_Store
