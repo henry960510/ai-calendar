@@ -22,7 +22,7 @@ Windows 使用者安裝時，請勾選畫面下方的 Add Python to PATH。
 下載完成後，點兩下解壓縮，會得到一個叫 ai-calendar-main 的資料夾
 第三步：打開終端機，貼上指令
 
--Mac：按 Command + 空白鍵，搜尋「終端機」並打開。 把下面整段複製貼上，按 Enter：
+---Mac：按 Command + 空白鍵，搜尋「終端機」並打開。 把下面整段複製貼上，按 Enter：
 
 
 bash
@@ -39,7 +39,7 @@ python AI_calendar1.py
 
 
 
--Windows：按 Windows 鍵，搜尋「cmd」並打開「命令提示字元」。 把下面整段複製貼上，按 Enter：
+---Windows：按 Windows 鍵，搜尋「cmd」並打開「命令提示字元」。 把下面整段複製貼上，按 Enter：
 
 bash
 
@@ -77,8 +77,6 @@ Key 會不會外流？ 不會。它只存在你這台電腦裡，不會上傳到
 
 ---Mac---
 
-bash
-
 cd ~/Downloads/ai-calendar-main
 
 source venv/bin/activate
@@ -87,8 +85,6 @@ python AI_calendar1.py
 
 
 ---Windows---
-
-bash
 
 cd %USERPROFILE%\Downloads\ai-calendar-main
 
