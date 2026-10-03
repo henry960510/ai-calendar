@@ -20,7 +20,8 @@ Windows 使用者安裝時，請勾選畫面下方的 Add Python to PATH。
 回到這個頁面最上面，點綠色的 Code 按鈕
 選 Download ZIP
 下載完成後，點兩下解壓縮，會得到一個叫 ai-calendar-main 的資料夾
-第三步：打開終端機，貼上指令
+
+---第三步：打開終端機，貼上指令---
 
 ---Mac：按 Command + 空白鍵，搜尋「終端機」並打開。 把下面整段複製貼上，按 Enter：
 
