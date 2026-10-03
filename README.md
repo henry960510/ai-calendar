@@ -24,12 +24,20 @@ Windows 使用者安裝時，請勾選畫面下方的 Add Python to PATH。
 
 Mac：按 Command + 空白鍵，搜尋「終端機」並打開。 把下面整段複製貼上，按 Enter：
 
+
 bash
+
 cd ~/Downloads/ai-calendar-main
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
+
 python AI_calendar1.py
+
+
 
 Windows：按 Windows 鍵，搜尋「cmd」並打開「命令提示字元」。 把下面整段複製貼上，按 Enter：
 
