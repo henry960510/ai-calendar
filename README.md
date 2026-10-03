@@ -10,19 +10,19 @@ AI Calendar 行程助理
 也可以自己按右上角的 + 手動新增
 行程存在你自己的電腦裡，不用註冊帳號
 開始使用
-第一步：安裝 Python（已經有的人可以跳過）
+----第一步：安裝 Python（已經有的人可以跳過）---
 
 到 python.org 下載並安裝 Python（3.10 以上）。
 
 Windows 使用者安裝時，請勾選畫面下方的 Add Python to PATH。
 
-第二步：下載這個程式
+---第二步：下載這個程式---
 回到這個頁面最上面，點綠色的 Code 按鈕
 選 Download ZIP
 下載完成後，點兩下解壓縮，會得到一個叫 ai-calendar-main 的資料夾
 第三步：打開終端機，貼上指令
 
-Mac：按 Command + 空白鍵，搜尋「終端機」並打開。 把下面整段複製貼上，按 Enter：
+-Mac：按 Command + 空白鍵，搜尋「終端機」並打開。 把下面整段複製貼上，按 Enter：
 
 
 bash
@@ -39,20 +39,26 @@ python AI_calendar1.py
 
 
 
-Windows：按 Windows 鍵，搜尋「cmd」並打開「命令提示字元」。 把下面整段複製貼上，按 Enter：
+-Windows：按 Windows 鍵，搜尋「cmd」並打開「命令提示字元」。 把下面整段複製貼上，按 Enter：
 
 bash
+
 cd %USERPROFILE%\Downloads\ai-calendar-main
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
+
 python AI_calendar1.py
+
 
 等它跑完，會跳出行事曆的視窗。
 
 資料夾不在「下載」裡的話，把第一行的路徑換成你放的位置就好。
 
-第四步：設定 API Key（只有第一次要做）
+---第四步：設定 API Key（只有第一次要做）----
 
 這個程式的 AI 是用 Groq 的服務，需要一把你自己的 API Key（免費額度夠一般使用）。第一次打開會自動跳出「設定 API Key」視窗：
 
@@ -69,19 +75,27 @@ Key 會不會外流？ 不會。它只存在你這台電腦裡，不會上傳到
 
 每次想用，都要重新開終端機，貼這幾行：
 
-Mac
+---Mac---
 
 bash
+
 cd ~/Downloads/ai-calendar-main
+
 source venv/bin/activate
+
 python AI_calendar1.py
 
-Windows
+
+---Windows---
 
 bash
+
 cd %USERPROFILE%\Downloads\ai-calendar-main
+
 venv\Scripts\activate
+
 python AI_calendar1.py
+
 
 這次不用再安裝，也不用再設定 Key。
 
@@ -90,6 +104,7 @@ python AI_calendar1.py
 你的行程和 API Key 都存在電腦的 .ai_calendar 資料夾裡：
 
 Mac：/Users/你的名字/.ai_calendar/
+
 Windows：C:\Users\你的名字\.ai_calendar\
 
 這個資料夾是隱藏的（Mac 在 Finder 按 Command + Shift + . 可以顯示）。因為資料不在程式資料夾裡，所以更新或刪除程式不會讓行程消失。想備份的話，複製這個資料夾就好。
